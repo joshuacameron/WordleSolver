@@ -1,6 +1,6 @@
 # Wordle Solver
 
-TODO: Add image of WordleBoard with solution from solver
+![Solved Wardle image](https://github.com/joshuacameron/WordleSolver/blob/main/Images/wordleCracker.png?raw=true)
 
 [Wordle](https://www.powerlanguage.co.uk/wordle/) is a free online game that gives a new daily word puzzle every day. This is a project to calculate the best next word to try on Wordle games given the board's state. To calculate the best next word the Solver filters the possible word list down to only the words that are possible as solutions, and then it figures out which word helps rule out the most possible solutions in what is left. The heart of this Solver walking through the simple algorithm is fully commented [here](https://github.com/joshuacameron/WordleSolver/blob/main/WordleSolver/WordleSolver.cs#L18).
 
